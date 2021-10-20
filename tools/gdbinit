@@ -1,0 +1,9 @@
+break _start
+display/s (char*)$esi
+display/s (char*)$edi
+display/c (char)$eax
+display/x $eax
+display/x $ebx
+display/x $ecx
+display/s (char*)$edx
+run
